@@ -1,0 +1,16 @@
+[Info]
+ext = ['py']
+tabsize = 4
+
+[Rules]
+# Args = {Color="Argument", Rule='\w+\(((?:\([^()]\)|.)*)\)'}
+Keyword = {Color="Keyword", Rule='\w'}
+Number = {Color="Number", Rule='(\d)'}
+builtins = {Color="Keyword.BuiltIns", Rule='\w+\('}
+Args = {Color="Args", Rule = '(\(|\)|\[|\])'}
+Self = {Color="Self", Rule='(self)'}
+Function = {Color="Definition.Function", Rule='\W*((?i)(def|class|with|return|for|in|if|else)(?i))\W'}
+Symbols = {Color="Definition.Function", Rule='\W*((?i)(\>|\=|\<|\!)(?i))\W'}
+Imports = {Color="Definition.Import", Rule='\W*((?i)(from|import)(?i))\W'}
+String = {Color="String", Rule="(\\\"|\\')(.*?)(\\\"|\\')"}
+Comment = {Color="Comment", Rule='#.*$'}

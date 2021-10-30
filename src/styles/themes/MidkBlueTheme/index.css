@@ -1,0 +1,52 @@
+QMainWindow {
+    background:rgb(50,50,67);
+}
+
+QPushButton{
+    border:none;
+    color: whitesmoke;
+    font-size:20px;
+    font-weight:400;
+    text-align:left;
+}
+
+QTabWidget::pane {
+    border: 2px solid rgb(45, 45, 63);
+    border-radius: 3px;
+    top:-1px; 
+    background: rgb(140,140,150); 
+} 
+QTabBar::tab {
+    background: rgb(40, 40, 57); 
+    color: whitesmoke;
+    border-radius: 3px;
+    border: 2px solid rgb(45, 45, 63);
+    padding: 3px;
+    margin-right: 1px;
+} 
+QTabBar::close-button {
+    image: url(src/styles/themes/DarkTheme/close.png);
+}
+
+QTabBar::close-button:hover {
+    image: url(src/styles/themes/DarkTheme/close-hover.png);
+}
+
+
+QTabBar::tab:selected { 
+    background: rgb(85, 85, 103);
+}
+
+QPushButton#left_button:hover{
+    font-weight:600;
+    background:rgb(80,80,97);
+    border-left:5px solid blue;
+}
+QWidget#left_widget{
+    background:rgb(80,80,97);
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}

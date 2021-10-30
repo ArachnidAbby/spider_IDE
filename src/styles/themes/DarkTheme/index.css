@@ -1,0 +1,71 @@
+QMainWindow {
+    background:rgb(10,10,20);
+    color: whitesmoke;
+}
+
+QPushButton{
+    border:none;
+    color: whitesmoke;
+    font-size:20px;
+    font-weight:400;
+    text-align:left;
+}
+QTabWidget QTextEdit {
+    color: whitesmoke;
+    background: rgb(30,30,45);
+}
+
+QTabWidget::pane {
+    border: 2px solid rgb(35, 35, 40);
+    border-radius: 3px;
+    top:-1px; 
+    background: rgb(30,30,45); 
+} 
+QTabBar::tab {
+    background: rgb(30, 30, 47); 
+    color: whitesmoke;
+    border-radius: 3px;
+    border: 2px solid rgb(35, 35, 46);
+    padding: 3px;
+    margin-right: 1px;
+} 
+QTabBar::close-button {
+    image: url(src/styles/themes/DarkTheme/close.png);
+}
+
+QTabBar::close-button:hover {
+    image: url(src/styles/themes/DarkTheme/close-hover.png);
+}
+
+
+QTabBar::tab:selected { 
+    background: rgb(75, 75, 86);
+}
+
+QPushButton#left_button:hover{
+    font-weight:600;
+    background:rgb(70,70,80);
+    border-left:5px solid blue;
+}
+QWidget#left_widget{
+    background:rgb(70,70,80);
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+QMenuBar {
+    background:rgb(5,5,8);
+    color: whitesmoke;
+}
+
+QMenuBar::item:selected {
+    background: rgb(18,18,21);
+    min-width:25px;
+}
+
+QMenuBar::item:selected {
+    background: rgb(38,38,51);
+}

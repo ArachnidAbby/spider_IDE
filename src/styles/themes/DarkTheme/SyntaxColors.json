@@ -1,0 +1,12 @@
+{
+    "Number": "#70dbd8",
+    "Comment": "gray",
+    "Keyword": "white",
+    "Keyword.BuiltIns": "#e8a668",
+    "Definition.Function": "#dbc13b",
+    "Self":"#e868af",
+    "Args": "#bbf772",
+    "Definition.Import":"#dc3afc",
+    "Symbol":"#f7b0e9",
+    "String" : "#6899e8"
+}
